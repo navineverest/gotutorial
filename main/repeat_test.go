@@ -23,7 +23,6 @@ func TestRepeat(t *testing.T) {
 
 		if repeated != expected {
 			t.Errorf("got %q want %q", repeated, expected)
-
 		}
 	})
 }
